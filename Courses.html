@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Courses.css">
+    <title>Courses</title>
+</head>
+
+<body>
+    <!--     NavBar     -->
+    <div class="NAVB">
+        <input class="NAV" type="button" id="BTNAV1" value="Home">
+        <input class="NAV" type="button" id="BTNAV2" value="Courses">
+        <input class="NAV" type="button" id="BTNAV3" value="About">
+    </div>
+
+
+    <div class="Container">
+        <div class="Filter">
+
+            <!--     Search Bar     -->
+            <input type="text" id="Search" placeholder="Search for courses.." style="margin-bottom: 10px;">
+
+            <!--      Category      -->
+            <div class="Categories" id="courses">
+                <p style="font-size: 18px;font-weight: bold;">Categories</p>
+                <ul> <input class="BT" type="button" value="All"> </ul>
+                <ul> <input class="BT" type="button" value="JS"> </ul>
+                <ul> <input class="BT" type="button" value="HTML"> </ul>
+                <ul> <input class="BT" type="button" value="CSS"> </ul>
+                <ul> <input class="BT" type="button" value="PHP"> </ul>
+            </div>
+
+            <!--      Price      -->
+            <div>
+                <p style="margin-top: 50px;font-size: 18px;font-weight: bold;">Price</p>
+
+                <input type="range" id="range" min="0" max="70" oninput="this.nextElementSibling.value = this.value">
+
+                <p style="margin-left: 0.4rem;"> Value :
+                    <span id="labelprice" style="color: rgb(97, 59, 158);font-weight: bold;">$35</span>
+                </p>
+            </div>
+
+        </div>
+
+        <!--      Courses      -->
+        <div id="Section" class="menu-item">
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        AMAL OURAJIM <span style="color:rgb(114, 54, 210) ;">&copy</span> 2022-2023
+    </footer>
+
+
+    <!--   JavaScript   -->
+    <script src="Courses.js"></script>
+
+</body>
+
+</html>

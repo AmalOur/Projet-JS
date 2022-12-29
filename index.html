@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  CSS  -->
+    <link rel="stylesheet" href="index.css">
+
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <!--  Image  -->
+    <img src="Sign.jpg" alt="Courses">
+
+
+    <!--   Formulaire   -->
+    <form method="post" id="sign">
+        <fieldset>
+            <p id="Sign">Sign Up</p>
+
+
+            <!--  Username  -->
+            <p>
+                <label>Username:</label>
+
+                <input type="text" id="username" placeholder="Choose a username">
+
+                <label id="Res1">Ne peut pas être vide et comporte au moins 3 caractères et ne peut pas dépasser 25 caractères.</label>
+            </p>
+
+
+            <!--  Email  -->
+            <p>
+                <label>Email:</label>
+
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label id="Res2">Est obligatoire, valide et doit être correspondant à un pattern RegEx : example@example.ma</label>
+            </p>
+
+
+            <!--  Password  -->
+            <p>
+                <label>Password:</label>
+
+                <input type="password" id="Psswd" placeholder="Enter a strong password">
+
+                <label id="Res3">Le mot de passe doit contenir au moins 8 caractères, dont au moins 1 minuscule, 1 majuscule, 1 chiffre et 1 caractère spécial (!@#$%^&amp;*).</label>
+            </p>
+
+
+            <!--  Confirm Password  -->
+            <p>
+                <label>Confirm Password:</label>
+
+                <input type="password" id="CPsswd" placeholder="Reenter your password">
+
+                <label id="Res4">Le mot de passe de confirmation doit être le même que le mot de passe.</label>
+            </p>
+
+
+            <!--  Sign up button  -->
+            <p>
+                <input type="button" id="btnz" value="Sign Up">
+            </p>
+        </fieldset>
+    </form>
+
+
+    <!--    JavaScript    -->
+    <script src="index.js"></script>
+</body>
+
+</html>

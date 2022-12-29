@@ -1,0 +1,156 @@
+/* Body */
+
+body {
+    font-family: Bahnschrift Condensed;
+}
+
+
+/* NavBar */
+
+.NAVB {
+    background-color: rgb(205, 205, 205);
+    margin-bottom: 50px;
+}
+
+.NAV {
+    background-color: rgb(205, 205, 205);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: background-color 0.4s, color 0.15s, padding 0.3s, margin-left 0.3s;
+}
+
+.NAV:hover {
+    background-color: rgb(66, 10, 155);
+    color: white;
+    padding: 10px 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+
+/* Search Bar */
+
+#Search {
+    width: 150px;
+    height: 20px;
+    margin-left: -5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+/* Filter's side grid */
+
+.Container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}
+
+
+/* Filter */
+
+.Filter {
+    margin-left: 30px;
+    border-color: black;
+}
+
+
+/* Category */
+
+.BT {
+    border: none;
+    border-color: transparent;
+    background-color: white;
+    margin-left: -2rem;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: rgb(112, 110, 110);
+    transition: background-color 0.4s, color 0.15s, padding 0.3s;
+}
+
+.BT:hover {
+    background-color: rgb(66, 10, 155);
+    color: white;
+    padding: 5px 40px;
+}
+
+
+/* Price */
+
+#range {
+    border-radius: 8px;
+    height: 7px;
+    width: 130px;
+    border: 2px solid black;
+    -webkit-appearance: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 8px;
+    -webkit-appearance: none;
+    height: 17px;
+    background-color: rgb(66, 10, 155);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+
+/* Courses */
+
+#Section {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+/* Image */
+
+.photo {
+    width: 100%;
+    height: 150px;
+}
+
+
+/* Title */
+
+h3 {
+    text-align: center;
+    color: grey;
+    font-weight: lighter;
+}
+
+
+/* Price */
+
+h4 {
+    text-align: center;
+}
+
+
+/* Dispay of courses */
+
+.hiddenElement {
+    display: none;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(205, 205, 205);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
